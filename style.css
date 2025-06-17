@@ -1,0 +1,82 @@
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+.one{
+    width: 30%;
+    margin: auto;
+}
+.two{
+    background-color: pink;
+}
+
+.three{
+    background-color: yellow;
+}
+.four{
+    background-color: greenyellow;
+}
+.container div{
+    width: 32%;
+    float: left;
+}
+.container{
+    width: 100%;
+    
+}
+/* inline-block css */
+.done {
+    background-color: goldenrod;
+}
+.dtwo {
+    background-color: lawngreen;
+}
+.dthree {
+    background-color: lightblue;
+}
+
+.done, .dtwo, .dthree {
+    width: 32%;
+    display: inline-block;
+}
+
+/* flex css */
+#conOne {
+    background-color: aqua;
+    width: 32%;
+}
+
+#conTwo {
+    background-color: lightgreen;
+    width: 32%;
+}
+
+#conThree {
+    background-color: brown;
+    width: 32%;
+}
+
+#myCon {
+    display: flex;
+}
+
+/* grid css */
+
+.conOne {
+    background-color: lightcoral;
+}
+.conTwo {
+    background-color: lightsalmon;
+}
+.conThree {
+    background-color: fuchsia;
+}
+
+.myCon {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+}

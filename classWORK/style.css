@@ -1,0 +1,10 @@
+.mycon {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    /* grid-gap: 10px; */
+}
+
+img {
+    width: 90%;
+    height: 170px;
+}

@@ -1,0 +1,53 @@
+table, th, td {
+    /* border: 2px solid blue; */
+    border-collapse: collapse;
+    /* border-radius: 20px; */
+}
+
+th, td {
+    background-color: cyan;
+    border-color: white;
+    /* border-radius: 20px; */
+    padding: 10px;
+}
+
+table {
+    width: 60%;
+    /* height: 50vh; */
+}
+
+h1 {
+    text-align: center;
+}
+
+th {
+    text-align: left;
+}
+
+.test {
+    transform: rotate(-90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+}
+
+tr {
+    border-right: none !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: 2px solid yellowgreen !important;
+}
+
+tr:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+td:nth-child(odd), th:nth-child(odd) {
+    background-color: red;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
